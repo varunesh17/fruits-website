@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/index.html">
+  <link rel="stylesheet" href="/index.css">
+    
+<title>login</title>
+
+<style>
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.nav {
+  background-color: rgb(45, 197, 45);
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.nav-items {
+  display: flex; 
+  gap: 30px; 
+}
+
+.nav-login {
+  margin-left: auto; 
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 0 20px;
+  letter-spacing: 0.5px;
+  position: relative;
+  transition: 0.2s;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: 0.5s linear;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:hover:after {
+  width: 100%;
+}
+
+
+.nav-toggle:focus {
+  outline: none; 
+}
+</style>
+</head>
+<body>
+ 
+  <center>
+  <div class="nav">
+
+	
+
+
+    <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+    <a href="#footer section"><i class="fa fa-fw fa-search"></i>About</a> 
+    <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+    
+    <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+    </div>
+    
+      
+  
+  
+  
+  <br>
+  <br>
+  <br>
+  <br>
+    
+          <center>
+     
+  <div class="main" >
+      <div class="main2" id="home section1"></div>
+      <br> 
+    <h1>Login Form</h1>
+    
+  
+    <form action="">
+      <label for="first">
+        Username:
+      </label>
+      <input type="text" id="first" name="first" 
+        placeholder="Enter your Username" required>
+  
+      <label for="password">
+        Password:
+      </label>
+      <input type="password" id="password" name="password" 
+        placeholder="Enter your Password" required>
+  
+      <div class="wrap">
+        
+        <button type="submit">
+          Submit
+        </button>
+      </div>
+    </form>
+    
+    <p>Not registered?
+      <a href="#" style="text-decoration: none;">
+        Create an account
+      </a>
+    </p>
+  </div>
+  
+</center>
+    
+  </body>
+    
+</html>
